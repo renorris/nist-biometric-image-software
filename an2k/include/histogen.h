@@ -75,7 +75,7 @@ struct histo {
   HISTO *next;
 };
 
-HISTO *histo_head;
+extern HISTO *histo_head;
 
 enum {
   INCLUDE_INVALID_FILES=5,

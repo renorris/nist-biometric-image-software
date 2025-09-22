@@ -388,6 +388,8 @@ void copy_to_temp(const char *filepath) {
   }
 }
 
+HISTO *histo_head;
+
 /*****************************************************************************/
 int initialize_linked_list() {
 
